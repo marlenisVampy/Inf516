@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Primera Pagina</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <link rel="stylesheet" type="text/css" href="estilo.css"> 
+</head>
+<body background="fondo.jpg" width="2800">
+<div id="contenedor" >
+<header id="cabecera">
+<p class="texto"> Mi primera <br> pagina web</p>
+
+
+<iframe class="video"  src="http://www.youtube.com/embed/cWNEZLbP9Lk?autoplay=1"></iframe>
+
+</header>
+<nav id="menu">
+<ul id="menuhorizontal" class="menu1">
+<li><a class="activar" href="http://www.google.com">Google</a></li>
+<li><a href="http://www.yahoo.com">Yahoo</a></li>
+<li><a href="http://www.bing.com">Bing</a></li>
+<li><a href="http://www.bing.com">Bing</a></li>
+<li><a href="http://www.altavista.com">Altavista</a></li>
+</ul>
+</nav>
+<div id="contenido">
+<div id="grupo">
+<h1> GRUPO</h1>
+  <p id="cuadro1"><img src="riserani.jpg"  width="70" height="120"> Riserani Sánchez <br> FD-7854</p>
+  <p id="cuadro2"><img src="carlos.jpg"  width="70" height="120"> Carlos Silverio <br> 
+   100300785</p></p>
+   <p id="cuadro3"><img src="marlenis.jpg"  width="70" height="120"> Marlenis Concepción <br> 
+   100301097</p></p>
+    <p id="cuadro4"><img src="jose.jpg"  width="70" height="120">José Casanova  <br> 
+   100215158	</p></p>
+    </div>
+    <div id="intereses">
+<h1> INTERESES</h1>
+    <p id="cuadro1" class="texto2">Riserani Sánchez</p>
+    <p id="cuadro2"class="texto2">Rounded corners!</p>
+   <p id="cuadro3"class="texto2">Rounded corners!</p>
+    <p id="cuadro4"class="texto2">Rounded corners!</p>
+    </div>
+</div>
+<footer id="pie"></footer>
+</div>
+</body>
+</html>

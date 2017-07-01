@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Primera Pagina</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <link rel="stylesheet" type="text/css" href="estilo.css"> 
+ <script script type="text/javascript" src="funciones.js"> </script>
+</head>
+<body background="fondo.jpg" width="2800">
+<div id="contenedor" >
+<header id="cabecera">
+<p class="titulo"> Mi primera <br> pagina web</p>
+
+
+<iframe class="video"  src="http://www.youtube.com/embed/cWNEZLbP9Lk"></iframe>
+
+</header>
+<nav id="menu">
+<ul id="menuhorizontal" class="menu1">
+<li><a class="activar" href="index.html">HOME</a></li>
+<li><a href="ejercicio1.html">Problema 1</a></li>
+<li><a href="ejercicio2.html">Problema 2</a></li>
+<li><a href="ejercicio3.html">Problema 3</a></li>
+<li><a href="ejercicio4.html">Problema 4</a></li>
+</ul>
+</nav>
+<div id="contenido">
+<div id="grupo">
+<h1>Marcador Telefónico</h1>
+<section>
+
+<article>
+
+<form id="marcador">
+
+	<table align="center" border="3">
+		<tr>
+			<td>
+				<input style="width:140px; height:30px" type="cajaTexto" name="cajaTexto" size="15" autofocus>
+				<input style="width:70px ; height:30px"  class="boton1" id="boton" type="reset" name="borrar" value="<-" onclick="marcador.cajaTexto.value += 'c'">
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<input style="width:70px ; height:30px" class="boton1" id="boton" type="button" name="uno" value="1" size="5" onclick="marcador.cajaTexto.value += '1'">
+				<input style="width:70px; height:30px" class="boton1" id="boton" type="button" name="dos" value="2" onclick="marcador.cajaTexto.value += '2'">
+				<input style="width:70px; height:30px" class="boton1" id="boton" type="button" name="tres" value="3" onclick="marcador.cajaTexto.value += '3'">
+
+				<br>
+				<input style="width:70px; height:30px" class="boton1" id="boton" type="button" name="cuatro" value="4" onclick="marcador.cajaTexto.value += '4'">
+				<input style="width:70px; height:30px" class="boton1" id="boton" type="button" name="cinco" value="5" onclick="marcador.cajaTexto.value += '5'">
+				<input style="width:70px; height:30px" class="boton1" id="boton" type="button" name="seis" value="6" onclick="marcador.cajaTexto.value += '6'">
+				
+				<br>
+				<input style="width:70px; height:30px" class="boton1" id="boton" type="button" name="siete" value="7" OnClick="marcador.cajaTexto.value += '7'">
+				<input style="width:70px; height:30px" class="boton1" id="boton" type="button" name="ocho" value="8" onclick="marcador.cajaTexto.value += '8'">
+				<input style="width:70px; height:30px" class="boton1" id="boton" type="button" name="nueve" value="9" onclick="marcador.cajaTexto.value += '9'">
+
+				<br>
+				<input style="width:70px; height:30px" class="boton1 llamar" id="boton" type="Button" name="Llamar" value="Llamar" onclick="alert('Llamando al numero: ' + marcador.cajaTexto.value)">
+				<input style="width:70px; height:30px" class="boton1" id="boton" type="button" name="cero" value="0" onclick="marcador.cajaTexto.value += '0'">
+				<input style="width:70px; height:30px" class="boton1 colgar" id="boton" type="Button" name="igual" value="Colgar" onclick="alert('Llamada colgada: ' + marcador.cajaTexto.value)">
+			</td>
+		</tr>
+
+	</table>
+
+</form>
+
+</article>
+
+
+</section>
+
+
+</div>
+</div>
+</body>
+</html>
